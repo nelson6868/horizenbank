@@ -1,0 +1,12 @@
+.textcolor{
+  color: white;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+  text-decoration: none;
+  background-color: transparent !important;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+  text-decoration: none;
+  color: #5db5f8 !important;
+}
