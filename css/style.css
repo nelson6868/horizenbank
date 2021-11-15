@@ -40,6 +40,7 @@ body {
 .wrapper1 {
   background-color:#8c0001;
   height:22.4rem;
+  width: 100%;
 }
 
 .bg-black {
@@ -55,7 +56,10 @@ body {
 }
 
 .navbar-nav {
-  width: 100%
+  width: 100%;
+
+  
+  
 }
 
 .nav-link {
@@ -69,16 +73,12 @@ body {
 .nav-item {
   padding: 6px 12px;
   text-align: center;
+
 }
 .navbar-nav >li>a:focus, .nav-link>li>a:hover {
   text-decoration: none;
   color: #5db5f8 !important;
 }
-
-/* .nav-item:hover {
-  background-color: blue;
-
-} */
 
 .right {
   margin-left: auto
@@ -86,6 +86,7 @@ body {
 
 .navbar-collapse.collapse.in {
   display: block !important
+  
 }
 .navbar-brand {
   padding: 11px 20px
@@ -99,7 +100,15 @@ body {
   padding-top: -40% !important;
  margin-top: -7% !important;
 
+
+
  
+}
+.signbg{
+  background:#008586;
+ 
+
+
 }
 
 
@@ -110,30 +119,67 @@ body {
   .navbar-brand2 {
     padding: 11px 20px;
     text-align: center;
-    margin-top: -3% !important;
+    margin-top: 3% !important;
+    
+  }
+  .wrapper1 {
+    background-color:#8c0001;
+    height:22.4rem;
+    width: 90%;
+    float: right !important;
+  }
+
+  .navbar-brand {
+    padding: 11px 20px;
+    text-align: center;
+    display: grid;
+    /* margin-top: 3% !important; */
   }
  .navbar-toggler-icon{
-   float: left;
+   float: left !important;
  }
   .signbg{
     background:#008586;
+   float: right !important;
+ 
+  
+   
   }
  
   .boxwrapper{
     width: 100%;
     text-align: center;
     background-color:#8c0001;
-    margin-top: -3% !important;
+    padding-top:55% !important;
+    margin-top:-10% !important ;
 
   }
   .navbar-dark2{
     background-color:#8c0001;
-    margin-top: -3% !important;
+    margin-top: 3% !important;
   }
+  .navbar-dark{
+    background-color:#8c0001;
+  
+    /* margin-top: -3% !important; */
+  }
+  
+  
+.nav-item:hover {
+  background-color: rgb(3, 3, 63);
+  width: 100% !important;
+  
+}
+
+
   .nav-item {
       width: 100%;
       text-align: center;
-      background-color:#8c0001;
+      font-weight:bold;
+      /* background-color:#8c0001; */
+     
+    
+   
   }
 }
 
