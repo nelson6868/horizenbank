@@ -99,10 +99,6 @@ body {
   border-radius: 0px !important;
   padding-top: -40% !important;
  margin-top: -7% !important;
-
-
-
- 
 }
 .signbg{
   background:#008586;
@@ -125,14 +121,14 @@ body {
   .wrapper1 {
     background-color:#8c0001;
     height:22.4rem;
-    width: 90%;
+    width: 100%;
     float: right !important;
   }
 
   .navbar-brand {
     padding: 11px 20px;
     text-align: center;
-    display: grid;
+ 
     /* margin-top: 3% !important; */
   }
  .navbar-toggler-icon{
